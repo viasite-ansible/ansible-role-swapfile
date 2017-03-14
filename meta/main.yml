@@ -4,7 +4,11 @@ galaxy_info:
   description: swapfile
   license: MIT
   min_ansible_version: 1.4
-  version: 0.4
-  categories:
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+  galaxy_tags:
     - system
   dependencies: []
